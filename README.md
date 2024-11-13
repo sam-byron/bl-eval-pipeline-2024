@@ -12,8 +12,7 @@ If you have questions about or suggestions for this code, please open an issue a
 
 We also welcome pull requests!
 
-## Resources
-
+## Artifacts
 A spreadsheet containing information about the BabyLM 2024 model submissions may be found [here](https://docs.google.com/spreadsheets/d/182IjCUiaVYSuJq9GAwZeeb-50bxBlY4qEMOdiCh6i-g/edit?usp=sharing). This includes hyperparameters, as well as links to download the models and results.
 
 ## Install
