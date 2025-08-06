@@ -1,9 +1,16 @@
 import json
 import os
+import nltk
 from nltk.tokenize import word_tokenize
 from datasets import load_dataset
 from collections import defaultdict
 from tqdm import tqdm
+
+# Download the required NLTK data if not present
+try:
+    nltk.data.find("tokenizers/punkt_tab")
+except LookupError:
+    nltk.download("punkt_tab")
 
 vocab = set()
 with open("ewok/vocab.txt", 'r') as vocabfile:
